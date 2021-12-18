@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.testmatrix.harvic.blogmatrix">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".basic_use_sample.BasicUseActivity"
+            android:label="@string/title_activity_basic_use">
+        </activity>
+        <activity android:name=".basic_use_sample.TestScaleActivity">
+        </activity>
+        <activity android:name=".basic_use_sample.TestPolyActivity">
+        </activity>
+        <activity android:name=".basic_use_sample.TestRectToRectActivity">
+        </activity>
+        <activity android:name=".foldsample.FoldPrinciple1Activity">
+        </activity>
+        <activity android:name=".foldsample.FoldPrinciple2Activity">
+        </activity>
+        <activity android:name=".foldsample.FoldPrinciple3Activity">
+        </activity>
+        <activity android:name=".foldsample.FoldPrinciple4Activity">
+        </activity>
+        <activity android:name=".foldsample.FoldPrinciple5Activity">
+        </activity>
+        <activity android:name=".foldsample.FoldPrinciple6Activity">
+        </activity>
+        <activity android:name=".foldsample.FoldPrinciple7Activity">
+        </activity>
+    </application>
+
+</manifest>

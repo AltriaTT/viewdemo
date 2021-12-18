@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/translate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matrix基本使用"/>
+
+    <Button
+        android:id="@+id/scale_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试Scale使用"/>
+
+    <Button
+        android:id="@+id/poly_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="setPolyToPoly使用"/>
+
+    <Button
+        android:id="@+id/rect_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="setRectToRect使用"/>
+
+    <Button
+        android:id="@+id/fold_sample1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.4.1.2 实现第一部分效果"/>
+
+    <Button
+        android:id="@+id/fold_sample2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.4.1.3 实现第二部分效果"/>
+
+    <Button
+        android:id="@+id/fold_sample3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.4.2 实现完整折叠效果"/>
+
+    <Button
+        android:id="@+id/fold_sample4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.5.1 ViewGroup实现完整折叠效果"/>
+
+    <Button
+        android:id="@+id/fold_sample5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.5.2 改进代码"/>
+
+    <Button
+        android:id="@+id/fold_sample6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.5.2 实现折叠菜单"/>
+
+    <Button
+        android:id="@+id/fold_sample7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.5.2.4 完整实现折叠菜单"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.testmatrix.harvic.blogmatrix.foldsample.PolyToPolySample5View
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/sample"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:secondaryProgress="90"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+        虞美人·听雨
+        少年听雨歌楼上。红烛昏罗帐。壮年听雨客舟中。江阔云低、断雁叫西风。
+        而今听雨僧庐下。鬓已星星也。悲欢离合总无情。一任阶前、点滴到天明。"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="test button"/>
+</com.testmatrix.harvic.blogmatrix.foldsample.PolyToPolySample5View>

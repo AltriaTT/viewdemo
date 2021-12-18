@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.clock.harvic.blogwonderfulview.MainActivity">
+
+    <Button
+        android:id="@+id/btn_clock_img_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片叠加实现"/>
+
+    <Button
+        android:id="@+id/btn_first_pie_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="初步实现原理"/>
+
+    <Button
+        android:id="@+id/btn_volume_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="音量组合控件"/>
+
+</LinearLayout>

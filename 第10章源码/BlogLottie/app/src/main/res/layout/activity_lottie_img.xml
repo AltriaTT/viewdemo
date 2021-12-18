@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".LottieImgActivity">
+
+    <Button
+        android:id="@+id/btn_change_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换图片"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_test_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="images/"
+        app:lottie_fileName="data.json"
+        app:lottie_loop="true"/>
+
+</LinearLayout>

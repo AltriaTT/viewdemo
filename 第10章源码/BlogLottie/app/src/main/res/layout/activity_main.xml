@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|top"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_lottie_basic_use_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基本使用"/>
+
+    <Button
+        android:id="@+id/btn_lottie_text_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换文本"/>
+
+    <Button
+        android:id="@+id/btn_lottie_img_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换图片"/>
+
+    <Button
+        android:id="@+id/btn_lottie_scale_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更改动画缩放属性"/>
+
+    <Button
+        android:id="@+id/btn_lottie_fill_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更改动画填充颜色"/>
+
+
+
+    <!--<com.airbnb.lottie.LottieAnimationView-->
+        <!--android:id="@+id/lottie_text_demo"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="@android:color/holo_green_dark"-->
+        <!--app:lottie_scale="90"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--app:lottie_autoPlay="true"-->
+        <!--app:lottie_rawRes="@raw/text"-->
+        <!--app:lottie_repeatMode="restart"-->
+        <!--app:lottie_loop="true"/>-->
+
+    <!--<com.airbnb.lottie.LottieAnimationView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--app:lottie_progress="0.8"-->
+        <!--app:lottie_rawRes="@raw/text"/>-->
+
+</LinearLayout>

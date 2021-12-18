@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BlogMultiTouch</string>
+    <string name="title_activity_multi_drag">MultiDragActivity</string>
+</resources>

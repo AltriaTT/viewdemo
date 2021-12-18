@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BlogMatrix</string>
+    <string name="title_activity_basic_use">BasicUseActivity</string>
+</resources>

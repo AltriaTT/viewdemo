@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_blue_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.clock.harvic.blogwonderfulview.ClockImageViewActivity">
+
+    <com.clock.harvic.blogwonderfulview.ClockImageView
+        android:id="@+id/clock_img_view"
+        app:timeTextSize="5dp"
+        app:timeTextColor="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touch.harvic.testtouchevent.CustomFirstGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SecondActivity">
+
+    <com.touch.harvic.testtouchevent.CustomSecondGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:padding="50dp">
+
+        <com.touch.harvic.testtouchevent.CustomTextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#ff0000"
+            android:text="Text View"/>
+
+    </com.touch.harvic.testtouchevent.CustomSecondGroup>
+
+</com.touch.harvic.testtouchevent.CustomFirstGroup>
